@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* font Family
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+*/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/**************************
+	header section css
+**************************/
+header{
+	width: 100%;
+	background: url(../img/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.nav-link{
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/devider.png) no-repeat center bottom;
+	font-weight: 600;
+}
+.navbar {
+	padding: 1rem 0 !important;
+}
+.nav-item{
+	margin-left: 16px;
+	
+}
+.banner-text{
+	padding: 220px 0px;
+	
+}
+.banner-text h6{
+	color: #008ed6;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner-text h1{
+	color: white;
+	font-size: 48px;
+	font-weight: 600;
+	margin-bottom: 24px;
+
+}
+.banner-text p{
+	color: #999999;
+	font-size: 18px;
+	margin-bottom: 56px;
+}
+.banner-text .banner-btn button{
+	background: transparent;
+	color: white;
+	padding: 14px 30px;
+	border: 1px solid #999999;
+	margin-right: 32px;
+	border-radius: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+}
+.btn-1{
+	background: #008ed6 !important;
+	border: 1px solid #008ed6;
+
+}
+/**************************
+	features section css
+**************************/
+.features{
+	background: #fff;
+	padding: 80px 0px;
+	border-bottom: 1px solid #e7e6e6;
+}
+.title{
+	text-align: center;
+	margin-bottom: 42px;
+}
+.title h6{
+	color: #008ed6;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.title h1{
+	color: #1a1a1a;
+	font-size: 42  px;
+	font-weight: 600;
+	margin-bottom: 24px;
+
+}
+.feature{
+	text-align: center;
+	padding: 32px;
+}
+.feature i{
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	font-size: 32px;
+	color: #008ed6;
+	border-radius: 50%;
+	border: 1px solid #e7e6e6;
+}
+.feature p{
+	font-size: 18px;
+	color: #999999;
+}
+.feature h3{
+	margin: 30px 0px 14px 0px;
+	font-size: 24px;
+}
+/**************************
+	feature-2 section css
+**************************/
+.feature-2{
+	background: fff;
+	padding: 80px 0px;
+}
+.text-right{
+	text-align: left;
+	padding-top: 55px;
+}
+.text-right p{
+	margin: 20px 0px 30px 0px;
+	color: #999999;
+}
+.text-right ul li{
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.text-right ul li i{
+	color: #008ed6;
+	margin-right: 16px;
+}
+/**************************
+	feature-3 section css
+**************************/
+.feature-3{
+	background: #f3f3f3;
+	padding: 80px 0px;
+}
+.text-left{
+	text-align: left;
+	padding: 20px;
+}
+.text-left p{
+	margin: 20px 0px 30px 0px;
+	color: #999999;
+	
+}
