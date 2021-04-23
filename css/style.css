@@ -1,0 +1,526 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* font Family
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+*/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/**************************
+	header section css
+**************************/
+header{
+	width: 100%;
+	background: url(../img/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.nav-link{
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/devider.png) no-repeat center bottom;
+	font-weight: 600;
+}
+.navbar {
+	padding: 1rem 0 !important;
+}
+.nav-item{
+	margin-left: 16px;
+	
+}
+.banner-text{
+	padding: 220px 0px;
+	
+}
+.banner-text h6{
+	color: #008ed6;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner-text h1{
+	color: white;
+	font-size: 48px;
+	font-weight: 600;
+	margin-bottom: 24px;
+
+}
+.banner-text p{
+	color: #999999;
+	font-size: 18px;
+	margin-bottom: 56px;
+}
+.banner-text .banner-btn button{
+	background: transparent;
+	color: white;
+	padding: 14px 30px;
+	border: 1px solid #999999;
+	margin-right: 32px;
+	border-radius: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+}
+.btn-1{
+	background: #008ed6 !important;
+	border: 1px solid ;
+
+}
+.btn-2:hover{
+    color: white !important;
+    background: #008ed6 !important;
+}
+.btn-1:hover{
+    color: white !important;
+    background: #4d4e4e !important;
+}
+/**************************
+	features section css
+**************************/
+.features{
+	background: #fff;
+	padding: 80px 0px;
+	border-bottom: 1px solid #e7e6e6;
+}
+.title{
+	text-align: center;
+	margin-bottom: 42px;
+}
+.title h6{
+	color: #008ed6;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.title h1{
+	color: #1a1a1a;
+	font-size: 42  px;
+	font-weight: 600;
+	margin-bottom: 24px;
+
+}
+.feature{
+	text-align: center;
+	padding: 32px;
+}
+.feature i{
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	font-size: 32px;
+	color: #008ed6;
+	border-radius: 50%;
+	border: 1px solid #e7e6e6;
+}
+.feature p{
+	font-size: 18px;
+	color: #999999;
+}
+.feature h3{
+	margin: 30px 0px 14px 0px;
+	font-size: 24px;
+}
+/**************************
+	feature-2 section css
+**************************/
+.feature-2{
+	background: fff;
+	padding: 80px 0px;
+}
+.text-right{
+	text-align: left;
+	padding-top: 55px;
+}
+.text-right p{
+	margin: 20px 0px 30px 0px;
+	color: #999999;
+}
+.text-right ul li{
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.text-right ul li i{
+	color: #008ed6;
+	margin-right: 16px;
+}
+/**************************
+	feature-3 section css
+**************************/
+.feature-3{
+	background: #f3f3f3;
+	padding: 80px 0px;
+}
+.text-left{
+	text-align: left;
+	padding: 20px;
+}
+.text-left p{
+	margin: 20px 0px 30px 0px;
+	color: #999999;
+	
+}
+/**************************
+	plan section css
+**************************/
+
+.plan{
+    width: 100%;
+    height: auto;
+    background: url(../img/plan.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 150px 0;
+}
+
+.plans-top h5{
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.plans-top h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 36px;
+
+}
+
+.plan-text{
+    margin-top: 55px;
+}
+
+.plan-text .pera{
+    color: white;
+    padding: 0 32px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.plan-img{
+    text-align: center;
+}
+
+.plan-id{
+    padding: 0;
+}
+
+.plan-id p{
+    margin: 0 0 0 -31px;
+}
+
+.pera-1{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+}
+.pera-2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+/**************************
+	pricing section css
+**************************/
+.pricing{
+    text-align: center;
+    padding: 80px 0;
+}
+.pricing h5{
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.pricing h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.price{
+    padding: 85px 0;
+}
+
+.price-head h5{
+    font-weight: bold;
+    font-size: 14px;
+    color: #008ed6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.price-head h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.price-box{
+    border: 1px solid #d8d8d8;
+    margin-top: 71px;
+    text-align: center;
+}
+.price-top{
+    padding: 20px 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+.price-top h3{
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.4s;
+}
+.price-body{
+    border-bottom: 1px solid #d8d8d8;
+    padding: 16px 0;
+    transition: 0.4s;
+}
+.price-body p{
+    margin: 0;
+    font-size: 18px;
+    color: #999999;
+}
+.price-body h2{
+    margin: 0;
+    font-size: 75px;
+    font-weight: bold;
+    position: relative;
+}
+.price-body h2::before{
+    position: absolute;
+    content: '$';
+    top: 14px;
+    left: 32%;
+    font-size: 30px;
+}
+.price-body .free::before{
+    position: absolute;
+    content: '$';
+    top: 14px;
+    left: 38% !important;
+    font-size: 30px;
+}
+
+.price-bottom{
+
+}
+.price-bottom p{
+    color: #999999;
+    font-size: 18px;
+    margin: 40px;
+}
+.price-bottom p span{
+    color: #008ed6;
+}
+.price-bottom button{
+    padding: 11px 40px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: 1px solid #d8d8d8;
+    font-size: 14px;
+    font-weight: bold;
+    color: #008ed6;
+    transition: 0.4s;
+}
+.price-box:hover .price-top h3{
+    color: #008ed6;
+    transition: 0.4s;
+}
+.price-box:hover .price-body{
+    background: #008ed6;
+    transition: 0.4s;
+}
+.price-box:hover .price-body p,.price-box:hover .price-body h2{
+    color: white;
+    transition: 0.4s;
+}
+.price-box:hover button{
+    background-color: #008ed6;
+    color: white;
+    transition: 0.4s;
+}
+
+
+/**************************
+	Like section css
+**************************/
+.like{
+    background-color: black;
+    padding: 40px 0;
+    height: auto;
+    width: 100%;
+}
+
+.like-text{
+    color: white;
+}
+
+.like-text h2{
+    font-size: 36px;
+    width: 100%;
+}
+.like-text h2 span{
+    font-size: 36px;
+    color: #929194;
+    font-weight: 200;
+}
+
+.like-btn button{
+    margin: 0 20px 0 0;
+    padding: 10px 25px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.btn-one {
+    background-color: #008ed6 !important;
+    border: none !important;
+}
+.btn-two:hover {
+    background-color: #008ed6 !important;
+    border: none !important;
+    transition: 0.4s;
+}
+.btn-one:hover {
+    background-color: white !important;
+    color: #008ed6 !important;
+    border: none !important;
+    transition: 0.4s;
+}
+/**************************
+	contact section css
+**************************/
+.contact{
+    padding: 60px 0 0 0;
+    background-color: #ededed;
+}
+.contact-one{
+    margin-top: 50px;
+}
+.contact-one i{
+    color: #008ed6;
+    margin:0 0 13px 0;
+}
+.contact-one p{
+    margin-bottom: 0;
+    color: #999999;
+    font-size: 18px;
+
+}
+.contact-form{
+    background-color: black;
+    padding: 54px 75px;
+    width: 60%;
+    margin: 70px auto 0 auto;
+}
+.form-group input{
+    border: 1px solid #535050;
+    padding: 10px 0;
+    margin: 8px 0;
+    outline: none;
+    background: transparent;
+}
+.form-group input:focus{
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+.form-group textarea{
+    border: 1px solid #535050;
+    padding: 4px 0;
+    margin: 8px 0;
+    background: transparent;  
+}
+.form-group textarea:focus{
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+.send-button{
+    text-align: right;
+}
+.send-button button{
+    padding: 12px 32px;
+    margin-top: 15px;
+    background: #008ed6;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.send-button button:hover{
+    padding: 12px 32px;
+    margin-top: 15px;
+    background: #ffffff;
+    color: #008ed6;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.indicator{
+    z-index: 9999;
+}
+/*****************
+	Map css
+******************/
+.map{
+	z-index: -999 !important;
+    margin-top: -80px;
+    margin-bottom: 0;
+}
+/*****************
+	footer css
+******************/
+.social-footer{
+	background: black;
+    width: 100%;
+    padding: 50px 0px 50px 0px;    text-align: center;
+}
+.social-footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 32px;
+    letter-spacing: 24px;
+	color: #444348;
+	
+}
+.social-footer p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444348;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.social-footer ul li:hover{
+	color: #008ed6;
+	transform: rotateZ(30deg);
+}
